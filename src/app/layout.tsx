@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <ThirdwebProvider activeChain={Sepolia}>
-
+      
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
